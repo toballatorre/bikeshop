@@ -9,16 +9,7 @@ public class DemoConsola {
 		// TODO Auto-generated method stub
 		
 		List<Integer> ventas = new ArrayList<Integer>();
-//		ventas.add(136);
-//		ventas.add(460);
-//		ventas.add(395);
-//		ventas.add(122);
-//		ventas.add(441);
-//		ventas.add(256);
-//		ventas.add(1690);
-//		ventas.add(699);
-//		ventas.add(525);
-//		ventas.add(654);
+
 		System.out.println("-----------------------------------------------");
 		System.out.println("Demostración Cálculo Beneficios para Vendedores");
 		System.out.println("-----------------------------------------------");
@@ -28,8 +19,6 @@ public class DemoConsola {
 		 * Generar numero aleatorios para la lita
 		 */
 		for (int i = 0; i < 10; i++) {			
-			
-			//System.out.print(ventas.get(i) + " ");
 			
 			//	Número aleatorio
 			int random = (int) Math.round((Math.random() * (2000-100)) +100);
